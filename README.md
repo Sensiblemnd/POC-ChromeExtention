@@ -1,102 +1,111 @@
-[![GitHub stars](https://img.shields.io/github/stars/aeksco/react-typescript-web-extension-starter.svg?style=social&label=Stars&style=plastic)]()
-[![GitHub watchers](https://img.shields.io/github/watchers/aeksco/react-typescript-web-extension-starter.svg?style=social&label=Watch&style=plastic)]()
-[![GitHub forks](https://img.shields.io/github/forks/aeksco/react-typescript-web-extension-starter.svg?style=social&label=Fork&style=plastic)]()
-[![GitHub contributors](https://img.shields.io/github/contributors/aeksco/react-typescript-web-extension-starter.svg)](https://github.com/aeksco/react-typescript-web-extension-starter/graphs/contributors)
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-[![GitHub issues](https://img.shields.io/github/issues/aeksco/react-typescript-web-extension-starter.svg)](https://github.com/aeksco/react-typescript-web-extension-starter/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/aeksco/react-typescript-web-extension-starter.svg)](https://github.com/aeksco/react-typescript-web-extension-starter/commits/master)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/aeksco/react-typescript-web-extension-starter.svg?style=flat)]()
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-[![HitCount](http://hits.dwyl.com/aeksco/react-typescript-web-extension-starter.svg)](http://hits.dwyl.com/aeksco/react-typescript-web-extension-starter)
-[![Tweet](https://img.shields.io/twitter/url/https/github.com/aeksco/react-typescript-web-extension-starter.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/aeksco/react-typescript-web-extension-starter)
-[![Twitter Follow](https://img.shields.io/twitter/follow/aeksco.svg?style=social)](https://twitter.com/aeksco)
+<h3 align="center">react-typescript-chrome-extension</h3>
 
-![React TypeScript Web Extension Starter](https://i.imgur.com/DLXldrn.png)
+<div align="center">
 
-:desktop_computer: A Web Extension starter kit built with React, TypeScript, SCSS, Storybook, EsLint, Prettier, Jest, Bootstrap,x &amp; Webpack. Compatible with Google Chrome, Mozilla Firefox, and Brave.
+based on https://github.com/aeksco/react-typescript-web-extension-starter
 
-![Example Extension Popup](https://i.imgur.com/Wp37usG.png "Example Extension Popup")
+</div>
 
-**Getting Started**
+---
 
-Run the following commands to install dependencies and start developing
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
+
+## 📝 Table of Contents
+
+-   [About](#about)
+-   [Getting Started](#getting_started)
+-   [Deployment](#deployment)
+-   [Usage](#usage)
+-   [Built Using](#built_using)
+-   [TODO](../TODO.md)
+-   [Contributing](../CONTRIBUTING.md)
+-   [Authors](#authors)
+-   [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
+
+Write about 1-2 paragraphs describing the purpose of your project.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them.
 
 ```
-yarn install
-yarn dev
+Give examples
 ```
 
-**Scripts**
+### Installing
 
--   `yarn dev` - run `webpack` in `watch` mode
--   `yarn storybook` - runs the Storybook server
--   `yarn build` - builds the production-ready unpacked extension
--   `yarn test -u` - runs Jest + updates test snapshots
--   `yarn lint` - runs EsLint
--   `yarn prettify` - runs Prettier
+A step by step series of examples that tell you how to get a development env running.
 
-<details>
-  <summary>Loading the extension in Google Chrome</summary>
+Say what the step will be
 
-In [Google Chrome](https://www.google.com/chrome/), open up [chrome://extensions](chrome://extensions) in a new tab. Make sure the `Developer Mode` checkbox in the upper-right corner is turned on. Click `Load unpacked` and select the `dist` directory in this repository - your extension should now be loaded.
+```
+Give the example
+```
 
-![Installed Extension in Google Chrome](https://i.imgur.com/ORuHbDR.png "Installed Extension in Google Chrome")
+And repeat
 
-</details>
+```
+until finished
+```
 
-<details>
-  <summary>Loading the extension in Brave</summary>
+End with an example of getting some data out of the system or using it for a little demo.
 
-In [Brave](https://brave.com/), open up [brave://extensions](brave://extensions) in a new tab. Make sure the `Developer Mode` checkbox in the upper-right corner is turned on. Click `Load unpacked` and select the `dist` directory in this repository - your extension should now be loaded.
+## 🔧 Running the tests <a name = "tests"></a>
 
-![Installed Extension in Brave](https://i.imgur.com/z8lW02m.png "Installed Extension in Brave")
+Explain how to run the automated tests for this system.
 
-</details>
+### Break down into end to end tests
 
-<details>
-  <summary>Loading the extension in Mozilla Firefox</summary>
+Explain what these tests test and why
 
-In [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), open up the [about:debugging](about:debugging) page in a new tab. Click the `Load Temporary Add-on...` button and select the `manfiest.json` from the `dist` directory in this repository - your extension should now be loaded.
+```
+Give an example
+```
 
-![Installed Extension in Mozilla Firefox](https://i.imgur.com/gO2Lrb5.png "Installed Extension in Mozilla Firefox")
+### And coding style tests
 
-</details>
+Explain what these tests test and why
 
-**Notes**
+```
+Give an example
+```
 
--   Includes ESLint configured to work with TypeScript and Prettier.
+## 🎈 Usage <a name="usage"></a>
 
--   Includes tests with Jest - note that the `babel.config.js` and associated dependencies are only necessary for Jest to work with TypeScript.
+Add notes about how to use the system.
 
--   Recommended to use `Visual Studio Code` with the `Format on Save` setting turned on.
+## 🚀 Deployment <a name = "deployment"></a>
 
--   Example icons courtesy of [FontAwesome](https://fontawesome.com).
+Add additional notes about how to deploy this on a live system.
 
--   [Microsoft Edge]() is not currently supported.
+## ⛏️ Built Using <a name = "built_using"></a>
 
--   Includes Storybook configured to work with React + TypeScript. Note that it maintains its own `webpack.config.js` and `tsconfig.json` files. See example story in `src/components/hello/__tests__/hello.stories.tsx`
+-   [MongoDB](https://www.mongodb.com/) - Database
+-   [Express](https://expressjs.com/) - Server Framework
+-   [VueJs](https://vuejs.org/) - Web Framework
+-   [NodeJs](https://nodejs.org/en/) - Server Environment
 
--   Includes a custom mock for the [webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts) package in `src/__mocks__`. This allows you to mock any browser APIs used by your extension so you can develop your components inside Storybook.
+## ✍️ Authors <a name = "authors"></a>
 
-![Example Storybook Setup](https://i.imgur.com/ER0WHtY.png "Example Storybook Setup")
+-   [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-**Built with**
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
--   [React](https://reactjs.org)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Storybook](https://storybook.js.org/)
--   [Jest](https://jestjs.io)
--   [Eslint](https://eslint.org/)
--   [Prettier](https://prettier.io/)
--   [Webpack](https://webpack.js.org/)
--   [Babel](https://babeljs.io/)
--   [Bootstrap](https://getbootstrap.com)
--   [SCSS](https://sass-lang.com/)
--   [webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts)
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-**Misc. References**
-
--   [Chrome Extension Developer Guide](https://developer.chrome.com/extensions/devguide)
--   [Firefox Extension Developer Guide](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension)
--   [Eslint + Prettier + Typescript Guide](https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb)
+-   Hat tip to anyone whose code was used
+-   Inspiration
+-   References
