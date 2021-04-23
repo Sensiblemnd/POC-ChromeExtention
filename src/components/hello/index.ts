@@ -1,1 +1,2 @@
-export { Hello } from "./component";
+import Hello from "./component";
+export { Hello };

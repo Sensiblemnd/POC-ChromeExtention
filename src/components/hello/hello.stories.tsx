@@ -1,5 +1,5 @@
 import * as React from "react";
-import Hello, { HelloProps } from "../component";
+import Hello, { HelloProps } from "./component";
 import { Meta } from "@storybook/react/types-6-0";
 import styled from "styled-components";
 

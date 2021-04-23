@@ -16,7 +16,7 @@ export const Popup: FunctionComponent = () => {
     return (
         <div className="popup-container">
             <div className="container mx-4 my-4">
-                <Hello />
+                <Hello text={"WTF"} />
                 <hr />
                 <Scroller />
             </div>
