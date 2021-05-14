@@ -1,12 +1,14 @@
 import React, { FunctionComponent } from "react";
 import "./styles.scss";
 import { browser, Tabs } from "webextension-polyfill-ts";
-
+import { scrollToBottomScript } from "../../api/scroll-to-top";
 // // // //
 
 // Scripts to execute in current tab
 const scrollToTopScript = `window.scroll(0,0)`;
-const scrollToBottomScript = `window.scroll(0,9999999)`;
+//const scrollToBottomScript = `window.scroll(0,9999999)`;
+
+const injectedFunction = ' document.body.style.backgroundColor = "orange"';
 
 /**
  * Executes a string of Javascript on the current tab
@@ -44,7 +46,7 @@ export const Scroller: FunctionComponent = () => {
             <div className="col-lg-12">
                 <button
                     className="btn btn-block btn-outline-dark"
-                    onClick={(): void => executeScript(scrollToTopScript)}
+                    onClick={(): void => executeScript(injectedFunction)}
                 >
                     Scroll To Top
                 </button>
